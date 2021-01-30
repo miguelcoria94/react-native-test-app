@@ -7,7 +7,7 @@ const ComponentsScreen = () => {
     return (
         <View>
             <Text style={styles.textStyle}>Getting started with React Native!</Text>
-            <Text>This app was created by {name}</Text>
+            <Text style={styles.nameStyles}>This app was created by {name}</Text>
         </View>
     )
 };
